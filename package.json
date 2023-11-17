@@ -1,0 +1,22 @@
+{
+  "name": "aeronnpm",
+  "version": "1.0.0",
+  "description": "This is First Package that i am currently Learning to publish on NPM",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "Firstnpmp",
+    "React",
+    "NPM"
+  ],
+  "author": "Nishitbaria",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "types": "lib/index.d.ts"
+}
